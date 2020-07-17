@@ -46,31 +46,31 @@ function renderElements(objEndereco) {
          fieldElement.setAttribute('style', 'display: initial;');
    
          if(objEndereco.cep !== "" || null){
-            saida += `Cep: ${objEndereco.cep}</br>`
+            saida += `<div style="margin-bottom: 0.5vh;">Cep: ${objEndereco.cep}</div>`
          }
          if(objEndereco.localidade !== "" || null){
-            saida += `Cidade: ${objEndereco.localidade}</br>`
+            saida += `<div style="margin-bottom: 0.5vh;">Cidade: ${objEndereco.localidade}</div>`
          }
          if(objEndereco.logradouro !== "" || null){
-            saida += `Logradouro: ${objEndereco.logradouro}</br>`
+            saida += `<div style="margin-bottom: 0.5vh;">Logradouro: ${objEndereco.logradouro}</div>`
          }
          if(objEndereco.complemento !== "" || null){
-            saida += `Complemento: ${objEndereco.complemento}</br>`
+            saida += `<div style="margin-bottom: 0.5vh;">Complemento: ${objEndereco.complemento}</div>`
          }
          if(objEndereco.bairro !== "" || null){
-            saida += `Bairro: ${objEndereco.bairro}</br>`
+            saida += `<div style="margin-bottom: 0.5vh;">Bairro: ${objEndereco.bairro}</div>`
          }
          if(objEndereco.uf !== "" || null){
-            saida += `Uf: ${objEndereco.uf}</br>`
+            saida += `<div style="margin-bottom: 0.5vh;">Uf: ${objEndereco.uf}</div>`
          }
          if(objEndereco.unidade !== "" || null){
-            saida += `Unidade: ${objEndereco.unidade}</br>`
+            saida += `<div style="margin-bottom: 0.5vh;">Unidade: ${objEndereco.unidade}</div>`
          }
          if(objEndereco.ibge !== "" || null){
-            saida += `Ibge: ${objEndereco.ibge}</br>`
+            saida += `<div style="margin-bottom: 0.5vh;">Ibge: ${objEndereco.ibge}</div>`
          }
          if(objEndereco.gia !== "" || null){
-            saida += `Gia: ${objEndereco.gia}</br>`
+            saida += `<div style="margin-bottom: 0.5vh;">Gia: ${objEndereco.gia}</div>`
          }
    
       }
