@@ -66,3 +66,14 @@
       font-size: 14rem;
    }   
 }
+
+@media (max-height: 500px) {
+
+   #search-result-field {
+      height: 40vh;
+   }
+   
+   #logo h1 {
+      font-size: 35rem;
+   }
+}
