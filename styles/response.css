@@ -67,7 +67,7 @@
    }   
 }
 
-@media (max-height: 500px) {
+@media (max-height: 720px) {
 
    #search-result-field {
       height: 40vh;
